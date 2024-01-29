@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #01031A;
+}
+
+section {
+    padding-top: 200px;
+}
+
+input {
+    width: 466px;
+    height: 118px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #8F8E8E;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 24px;   
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.vistavki {
+    padding-top: 130px;
+}
+
+.vistavki h2,
+.prices h2 {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.vistavki-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vistavki-card p {
+    background-color: rgba(0, 16, 58, 0.6);
+    backdrop-filter: blur(5.5px);
+    width: 453px;
+    height: 120px;
+    text-align: center;
+}
+ 
+.vistavki-bg-blur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 120px;
+}
+
+.prices {
+    padding-top: 80px;
+}
+
+.predloshenyya {
+    display: flex;
+    justify-content: space-between;
+}
+
+.excursion,
+.aquarium,
+.lekcii {
+    background-color: #044295;
+    width: 455px;
+    height: 580px;
+    border-radius: 10px;
+    box-shadow: -2px 21px 22px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.excursion h3,
+.aquarium h3,
+.lekcii h3 {
+    font-size: 48px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 15px;
+}
+
+.about-predloshenie {
+    padding: 48px 0 84px 0;
+}
+
+.predlozhenie {
+    padding-bottom: 23px;
+}
+
+.buy {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid #044295;
+    border-radius: 5px;
+    margin-top: 200px;
+    width: 1196px;
+    height: 723px;
+
+}
+
+.form h2 {
+    padding-bottom: 80px;
+}
+
+.form button {
+    margin-top: 20px;
+}

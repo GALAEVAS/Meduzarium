@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #01031a;
+}
+
+section {
+  padding-top: 225px;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.bg-main {
+  background: url(../pages/pageimg/mainMeduza2.jpg) no-repeat center/cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.meduza-that {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 710px;
+  height: 490px;
+}
+
+.meduza-that-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+}
+
+.interesting-fact h2 {
+  text-align: center;
+  padding-bottom: 105px;
+}
+
+.interesting-fact-cards-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interesting-fact-cards-under {
+  display: flex;
+  justify-content: center;
+  padding-top: 85px;
+}
+
+.interesting-fact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #044295;
+  height: 466px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.interesting-fact-card p {
+  padding-top: 20px;
+}
+
+.four-interesting-fact-card {
+  margin-right: 20px;
+}
+
+.ourmeduz h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.ourmeduz-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourmeduz-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ourmeduz-card h3 {
+  padding: 30px 0;
+}
+
+.egg-meduza,
+.aurelia,
+.zolotaya-meduza {
+  display: flex;
+  justify-content: space-between;
+}
+
+.egg-meduza-text h2,
+.aurelia-meduza-text h2,
+.zolotaya-meduza-text h2 {
+  line-height: 97px;
+  padding-bottom: 45px;
+}

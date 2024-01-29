@@ -1,0 +1,26 @@
+button {
+    width: 263px;
+    height: 70px;
+    font-size: 24px;
+    color: #273666;
+    background-color: #FFFFFF;
+    border-radius: 85px;
+    box-shadow: 10px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+    color: #FFFFFF;
+    background-color: #38629A;
+}
+
+button:active {
+    background-color: #044295;
+    color: #FFFFFF;
+}
+
+.main-button {
+    width: 445px;
+    height: 114px;
+    font-size: 48px;
+    margin-top: 75px;
+}

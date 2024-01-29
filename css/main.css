@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #01031A;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.bg-main {
+    min-height: 100vh;
+    background: url(../img/mainMeduza.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-content {
+    text-align: center;
+    position: relative;
+    bottom: 73vh;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+.about-text p,
+h2 {
+    padding-bottom: 15px;
+}
+
+.indent {
+    padding-top: 200px;
+}
+
+.main-meduza h2 {
+    text-align: center;
+    padding-bottom: 153px;
+}
+
+.main-meduza-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-our-meduz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.about-our-meduz p {
+    position: relative;
+    bottom: 45px;
+}
+
+.arrow {
+    padding-bottom: 165px;
+    position: relative;
+    left: 25px;
+}
+
+.sale-ticket {
+    text-align: center;
+}

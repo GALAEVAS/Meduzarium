@@ -1,0 +1,29 @@
+footer {
+    background-color: rgba(39, 39, 39, 0.13);
+}
+
+footer img:hover {
+    opacity: 0.6;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-top: 225px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-name {
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+}
